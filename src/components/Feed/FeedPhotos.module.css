@@ -1,0 +1,19 @@
+.feed {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    justify-items: center;
+}
+
+/* .feed img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+
+@media (max-width: 40rem) {
+    .feed {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
